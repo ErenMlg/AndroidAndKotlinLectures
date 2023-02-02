@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.giris'
+    namespace 'com.example.databinding'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.giris"
+        applicationId "com.example.databinding"
         minSdk 24
         targetSdk 33
         versionCode 1
