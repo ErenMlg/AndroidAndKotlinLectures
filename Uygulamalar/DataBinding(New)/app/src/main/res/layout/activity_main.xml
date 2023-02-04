@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/sonuc"
+            android:layout_width="360dp"
+            android:layout_height="88dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="62sp"
+            app:layout_constraintBottom_toTopOf="@+id/sayi1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <EditText
+            android:id="@+id/sayi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="1. Sayıyı giriniz"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/sayi2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sonuc"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <EditText
+            android:id="@+id/sayi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="2. Sayıyı giriniz"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/toplaButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sayi1"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/toplaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topla"
+            app:layout_constraintBottom_toTopOf="@+id/bolButton"
+            app:layout_constraintEnd_toStartOf="@+id/cikarButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sayi2"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/cikarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Çıkar"
+            app:layout_constraintBottom_toTopOf="@+id/carpButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/toplaButton"
+            app:layout_constraintTop_toBottomOf="@+id/sayi2"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/bolButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Böl"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/carpButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toplaButton"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/carpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Çarp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/bolButton"
+            app:layout_constraintTop_toBottomOf="@+id/cikarButton"
+            app:layout_constraintVertical_bias="0.5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
