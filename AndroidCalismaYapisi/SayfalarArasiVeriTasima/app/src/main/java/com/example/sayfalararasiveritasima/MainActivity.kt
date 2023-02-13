@@ -10,14 +10,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val kisi = Kisiler(999999,"Eren",1.67)
         sendButton.setOnClickListener {
+            val girdi = girdiText.text.toString()
             val yeniIntent = Intent(this@MainActivity,ActivityB::class.java)
-
             yeniIntent.putExtra("mesaj","merhaba")
+            yeniIntent.putExtra("girdi",girdi)
             yeniIntent.putExtra("yas",21)
             yeniIntent.putExtra("boy",1.67)
-            yeniIntent.putExtra("kisi1",kisi)
 
             startActivity(yeniIntent)
         }

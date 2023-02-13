@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityB">
+
+    <TextView
+        android:id="@+id/kullaniciAdiText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="Sayın : "
+        android:textColor="@color/purple_700"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="379dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="@color/white"
+        android:text="Kargo Sorgulama"
+        android:textColor="@color/purple_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siparisButton"
+        app:strokeColor="@color/purple_700"
+        app:strokeWidth="1sp" />
+
+    <Button
+        android:id="@+id/siparisButton"
+        android:layout_width="379dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="39dp"
+        android:backgroundTint="@color/white"
+        android:text="Siparişlerim"
+        android:textColor="@color/purple_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullaniciAdiText"
+        app:strokeColor="@color/purple_700"
+        app:strokeWidth="1sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="379dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/white"
+        android:text="Destek"
+        android:textColor="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:strokeColor="@color/purple_700"
+        app:strokeWidth="1sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="379dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="@color/white"
+        android:text="Sepetim"
+        android:textColor="@color/purple_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:strokeColor="@color/purple_700"
+        app:strokeWidth="1sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="379dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="@color/white"
+        android:text="Geçmiş Siparişlerim"
+        android:textColor="@color/purple_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:strokeColor="@color/purple_700"
+        app:strokeWidth="1sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
