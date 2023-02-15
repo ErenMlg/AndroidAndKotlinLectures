@@ -17,5 +17,6 @@ class MainActivity : AppCompatActivity() {
 
         val navHostFrag = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         NavigationUI.setupWithNavController(MainActivityTasarim.bottomNav,navHostFrag.navController)
+        // Bottom Navigation View ile FragmentContainerView'i birbirine bağlar
     }
 }

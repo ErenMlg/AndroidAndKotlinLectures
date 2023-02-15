@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/birinciFragment">
+
+    <fragment
+        android:id="@+id/birinciFragment"
+        android:name="com.example.navigationdrawer.BirinciFragment"
+        android:label="fragment_birinci"
+        tools:layout="@layout/fragment_birinci" />
+    <fragment
+        android:id="@+id/ikinciFragment"
+        android:name="com.example.navigationdrawer.IkinciFragment"
+        android:label="fragment_ikinci"
+        tools:layout="@layout/fragment_ikinci" />
+</navigation>
