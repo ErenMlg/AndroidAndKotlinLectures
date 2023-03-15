@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_design"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Bayrak Bilmece"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:typeface="monospace"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="16dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/dogruIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/dogru_icon" />
+
+    <TextView
+        android:id="@+id/dogruTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="37sp"
+        app:layout_constraintStart_toEndOf="@+id/dogruIcon"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/yanlisIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/yanlısTxt"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/yanlis_icon" />
+
+    <TextView
+        android:id="@+id/yanlısTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="57dp"
+        android:textSize="37sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/soruSayisiTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="#F44336"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toStartOf="@+id/bayrakImg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/bayrakImg"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dogruTxt"
+        app:srcCompat="@drawable/sri_lanka" />
+
+    <Button
+        android:id="@+id/cevapBtn1"
+        android:layout_width="300dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_design"
+        android:text="Button"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/cevapBtn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cevapBtn2"
+        android:layout_width="300dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_design"
+        android:text="Button"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/cevapBtn3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cevapBtn3"
+        android:layout_width="300dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_design"
+        android:text="Button"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/cevapBtn4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cevapBtn4"
+        android:layout_width="300dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_design"
+        android:text="Button"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
