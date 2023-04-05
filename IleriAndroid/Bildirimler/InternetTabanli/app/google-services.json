@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527487594122",
+    "project_id": "bildirimdersi",
+    "storage_bucket": "bildirimdersi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527487594122:android:cc7ec078cab8034c878773",
+        "android_client_info": {
+          "package_name": "com.example.internettabanlibildirim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527487594122-euek4ooscfb5u0lpk732sf3ghpmtopt6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6CK7EGEz6fYoCdZQglebbySnPJGqbxvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527487594122-euek4ooscfb5u0lpk732sf3ghpmtopt6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

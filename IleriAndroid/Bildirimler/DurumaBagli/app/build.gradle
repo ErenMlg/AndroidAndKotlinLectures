@@ -7,6 +7,10 @@ android {
     namespace 'com.example.bildirimolusturma'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.bildirimolusturma"
         minSdk 24
