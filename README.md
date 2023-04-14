@@ -1,9 +1,7 @@
-# Kotlin Lessons
+# Kotlin Tutorials
 Hello Welcome This Repostory can improve your kotlin experience have a nice lessons...
 
-<ul>
-</ul>
-
+## Subjects
 - [Startup Kotlin](https://github.com/ErenMlg/KotlinLessons/tree/master/KotlinStart)
 If you new start to kotlin you can learn kotlin functions, variables, loops from here
 
@@ -52,3 +50,6 @@ You can learn MVVM Architecture and apply in a app from here
 - [A few app with Kotlin](https://github.com/ErenMlg/KotlinLessons/tree/master/Apps)
 If you want improve what you learn you can try to do this apps
 
+## Referance
+[Android Mobil Uygulama Geliştirme Eğitimi | Kotlin | 2023](https://www.udemy.com/course/android-mobil-uygulama-gelistirme-egitimi-kotlin/)
+And my improvements...
