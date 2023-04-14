@@ -3,6 +3,8 @@ package com.example.sayfalararasiveritasima
 import android.os.Parcel
 import android.os.Parcelable
 
+
+//If we want to pass class data between in pages we need to Parcelable this class
 class Kisiler(var tcno:Int, var isim: String?, var boy:Double):Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readInt(),

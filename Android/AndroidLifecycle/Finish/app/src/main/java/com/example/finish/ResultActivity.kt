@@ -5,10 +5,10 @@ import android.os.Bundle
 import com.example.finish.databinding.ActivityResultBinding
 
 class ResultActivity : AppCompatActivity() {
-    private lateinit var tasarim: ActivityResultBinding
+    private lateinit var binding: ActivityResultBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        tasarim = ActivityResultBinding.inflate(layoutInflater)
-        setContentView(tasarim.root)
+        binding = ActivityResultBinding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 }

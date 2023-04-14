@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         val fm = supportFragmentManager
         val ft = fm.beginTransaction()
 
+        // add first fragment to fragment placholder...
         ft.add(R.id.fragment_placeholder1,FirstFragment())
         ft.add(R.id.fragment_placeholder2,SecondFragment())
 

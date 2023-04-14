@@ -12,8 +12,11 @@ class ActivityD : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        val intent = Intent(this@ActivityD,ActivityB::class.java)
+        val intent = Intent(this@ActivityD, ActivityB::class.java)
+
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        // Delete backstack ActivityD and press back
+
         startActivity(intent)
     }
 }

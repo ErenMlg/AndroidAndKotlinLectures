@@ -10,16 +10,16 @@ class ActivityB : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_b)
 
-        val gelenMesaj = intent.getStringExtra("mesaj")
-        val gelenMesaj2 = intent.getStringExtra("girdi")
-        val gelenYas = intent.getIntExtra("yas",0)
-        val gelenBoy = intent.getDoubleExtra("boy",0.0)
+        val receivedMessage = intent.getStringExtra("mesaj")
+        val receivedMessage2 = intent.getStringExtra("girdi")
+        val receivedAge = intent.getIntExtra("yas",0)
+        val receivedTall = intent.getDoubleExtra("boy",0.0)
 
-        textView2.text = gelenMesaj2
+        message.text = receivedMessage2
 
-        Log.e("MESAJ",gelenMesaj!!)
-        Log.e("YAŞ",gelenYas.toString())
-        Log.e("BOY",gelenBoy.toString())
+        Log.e("MESAJ",receivedMessage!!)
+        Log.e("YAŞ",receivedAge.toString())
+        Log.e("BOY",receivedTall.toString())
 
     }
 }

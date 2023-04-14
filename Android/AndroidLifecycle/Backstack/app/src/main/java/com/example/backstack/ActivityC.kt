@@ -12,7 +12,7 @@ class ActivityC : AppCompatActivity() {
         setContentView(R.layout.activity_c)
 
         Siparis1Button.setOnClickListener {
-            val intent = Intent(this@ActivityC,ActivityD::class.java)
+            val intent = Intent(this@ActivityC, ActivityD::class.java)
             startActivity(intent)
         }
     }

@@ -12,9 +12,10 @@ class GameActivity : AppCompatActivity() {
         tasarim = ActivityGameBinding.inflate(layoutInflater)
         setContentView(tasarim.root)
         tasarim.finishBtn.setOnClickListener {
-            val yeniIntent = Intent(this@GameActivity,ResultActivity::class.java)
+            val newIntent = Intent(this@GameActivity, ResultActivity::class.java)
+//Finish remove this page on backstack when you press back button next activity return to start activity
             finish()
-            startActivity(yeniIntent)
+            startActivity(newIntent)
         }
     }
 }

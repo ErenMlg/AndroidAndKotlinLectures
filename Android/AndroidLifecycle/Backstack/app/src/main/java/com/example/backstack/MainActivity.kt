@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        GirisButton.setOnClickListener {
-                val intent = Intent(this@MainActivity,ActivityB::class.java)
-                startActivity(intent)
+        btnEnter.setOnClickListener {
+            val intent = Intent(this@MainActivity, ActivityB::class.java)
+            startActivity(intent)
         }
     }
 }

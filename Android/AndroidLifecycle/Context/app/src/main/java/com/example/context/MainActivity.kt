@@ -6,17 +6,19 @@ import android.widget.Toast
 import com.example.context.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var mainTasarim:ActivityMainBinding
+    private lateinit var binding:ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mainTasarim = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(mainTasarim.root)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        mainTasarim.button.setOnClickListener {
 
-            Toast.makeText(this,"Merhaba",Toast.LENGTH_SHORT).show()
-            //Toast.makeText(this@MainActivity,"Merhaba",Toast.LENGTH_SHORT).show()
-            //Toast.makeText(applicationContext,"Merhaba",Toast.LENGTH_SHORT).show()
+        // Context indicates location...
+
+        binding.button.setOnClickListener {
+            Toast.makeText(this,"Hi",Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this@MainActivity,"Hi",Toast.LENGTH_SHORT).show()
+            //Toast.makeText(applicationContext,"Hi",Toast.LENGTH_SHORT).show()
 
         }
     }

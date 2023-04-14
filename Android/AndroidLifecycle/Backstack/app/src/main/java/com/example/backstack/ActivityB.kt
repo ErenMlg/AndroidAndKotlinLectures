@@ -11,7 +11,7 @@ class ActivityB : AppCompatActivity() {
         setContentView(R.layout.activity_b)
 
         siparisButton.setOnClickListener {
-            val intent = Intent(this@ActivityB,ActivityC::class.java)
+            val intent = Intent(this@ActivityB, ActivityC::class.java)
             startActivity(intent)
         }
     }

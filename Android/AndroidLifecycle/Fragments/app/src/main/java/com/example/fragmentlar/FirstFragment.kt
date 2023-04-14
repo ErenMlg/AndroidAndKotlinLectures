@@ -10,17 +10,17 @@ import com.example.fragmentlar.databinding.FirstFragmentBinding
 
 class FirstFragment : Fragment() {
 
-    private lateinit var firstFragmentTasarim: FirstFragmentBinding
+    private lateinit var binding: FirstFragmentBinding
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
-        firstFragmentTasarim = FirstFragmentBinding.inflate(inflater,container,false)
+        binding = FirstFragmentBinding.inflate(inflater,container,false)
         //inflater: tasarımı, container:kodsal olarak yazılımı, false ise başka tasarım eklenip eklenmeyeceğini söyler
 
-        firstFragmentTasarim.toastBtn.setOnClickListener {
+        binding.toastBtn.setOnClickListener {
             Toast.makeText(activity,"Merhaba",Toast.LENGTH_SHORT).show()
         }
-        return firstFragmentTasarim.root
+        return binding.root
     }
 
 }

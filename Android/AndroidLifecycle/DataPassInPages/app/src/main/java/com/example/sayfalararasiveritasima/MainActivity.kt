@@ -11,14 +11,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         sendButton.setOnClickListener {
-            val girdi = girdiText.text.toString()
-            val yeniIntent = Intent(this@MainActivity,ActivityB::class.java)
-            yeniIntent.putExtra("mesaj","merhaba")
-            yeniIntent.putExtra("girdi",girdi)
-            yeniIntent.putExtra("yas",21)
-            yeniIntent.putExtra("boy",1.67)
+            val input = input.text.toString()
+            val newIntent = Intent(this@MainActivity,ActivityB::class.java)
+            newIntent.putExtra("mesaj","merhaba")
+            newIntent.putExtra("girdi",input)
+            newIntent.putExtra("yas",21)
+            newIntent.putExtra("boy",1.67)
 
-            startActivity(yeniIntent)
+            startActivity(newIntent)
         }
     }
 }
