@@ -28,10 +28,10 @@ You can learn how to do something at simultaneous wtih work manager from here...
 ## [Location](https://github.com/ErenMlg/KotlinLessons/tree/master/Android/Location)
 You can learn how to use map and take location from here
 
-## [Startup Databases](https://github.com/ErenMlg/KotlinLessons/tree/master/DataBases/Data)
+## [Startup Databases](https://github.com/ErenMlg/KotlinLessons/tree/master/DataBases/LocalDatabases)
 You can learn local databases and how to use a database in app from here
 
-## [Advanced Databases](https://github.com/ErenMlg/KotlinLessons/tree/master/DataBases/InternetIslemleri)
+## [Advanced Databases](https://github.com/ErenMlg/KotlinLessons/tree/master/DataBases/ImprovedDatabases)
 You can learn Firebase, Picasso, Retrofit, Volley and JSON Parse from here
 
 ## [Room](https://github.com/ErenMlg/KotlinLessons/tree/master/DataBases/Room)
