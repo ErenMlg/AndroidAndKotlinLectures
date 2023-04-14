@@ -1,5 +1,5 @@
 # Kotlin Tutorials
-Hello Welcome This Repostory can improve your kotlin experience have a nice lessons...
+Hello welcome this repostory can improve your kotlin experience have a nice lessons...
 
 ## Subjects
 - [Startup Kotlin](https://github.com/ErenMlg/KotlinLessons/tree/master/KotlinStart)
