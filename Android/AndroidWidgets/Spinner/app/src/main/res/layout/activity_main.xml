@@ -6,14 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="335dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="192dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FF0000" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            app:srcCompat="@drawable/arrow_icon" />
+
+    </RelativeLayout>
+
 
     <Button
         android:id="@+id/button"
