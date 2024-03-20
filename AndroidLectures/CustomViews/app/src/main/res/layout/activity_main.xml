@@ -7,10 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.softcross.customviews.RickyCharacterView
+    <com.softcross.customviews.OnePieceWantedCustomView
         android:id="@+id/customView"
-        android:layout_width="250dp"
-        android:layout_height="450dp"
+        android:layout_width="350dp"
+        android:layout_height="650dp"
         android:layout_margin="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

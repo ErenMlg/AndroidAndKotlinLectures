@@ -3,7 +3,6 @@ package com.softcross.customviews
 import android.content.Context
 import android.content.res.Resources
 import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Matrix
@@ -14,18 +13,14 @@ import android.graphics.RectF
 import android.graphics.Shader
 import android.text.TextPaint
 import android.util.AttributeSet
-import android.util.Log
 import android.widget.FrameLayout
-import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
-import androidx.core.util.toHalf
 import java.lang.Float.min
-import kotlin.math.atan2
 import kotlin.math.max
 
 
-class RickyCharacterView @JvmOverloads constructor(
+class OnePieceWantedCustomView @JvmOverloads constructor(
     context: Context,
     attributeSet: AttributeSet? = null,
     defStyleAttr: Int = 0
@@ -49,11 +44,15 @@ class RickyCharacterView @JvmOverloads constructor(
 
     private var scaleFactor = 1f
 
+    private val framePath = Path()
+
+    private val clipSpace = 3.toDp
+
     private val gradientPaint = Paint(Paint.ANTI_ALIAS_FLAG)
 
 
     private val circlePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-        color = Color.GRAY
+        color = Color.WHITE
         style = Paint.Style.FILL
         strokeWidth = 10f
     }
@@ -131,10 +130,12 @@ class RickyCharacterView @JvmOverloads constructor(
         gradientPaint.shader = gradient
         initTextPaints()
         initImageMatrix()
+        initFramePath()
     }
 
 
     override fun onDraw(canvas: Canvas) {
+        canvas.clipPath(framePath)
         canvas.drawPaint(gradientPaint)
         canvas.drawCircle(
             (viewRectF.width() / 2f),
@@ -279,11 +280,11 @@ class RickyCharacterView @JvmOverloads constructor(
         invalidate()
     }
 
-    // TO DOUTSY SI JITSSUZAUSIR NASHOY GA GEJYCGHY BY TOUJYOU SHITATO SHUTEMO \nJUSTUAI NA MONTOHA USSAU MUKEAI",
     fun setBitmap(bitmap: Bitmap?) {
         this.bitmap = bitmap
         initImageMatrix()
         initTextPaints()
+        initFramePath()
         invalidate()
     }
 
@@ -355,6 +356,42 @@ class RickyCharacterView @JvmOverloads constructor(
                 viewRectF.height()
             ) * 1f / 100) * resources.displayMetrics.scaledDensity
 
+    }
+
+    private fun initFramePath() {
+        framePath.reset()
+
+        framePath.moveTo(viewRectF.left, viewRectF.top + clipSpace)
+
+        framePath.lineTo(viewRectF.left, viewRectF.height() * 10 / 100)
+
+        framePath.lineTo(
+            viewRectF.left + viewRectF.width() * 15 / 100,
+            viewRectF.height() * 10 / 100
+        )
+
+        framePath.lineTo(
+            viewRectF.left,
+            viewRectF.height() * 12 / 100
+        )
+
+        framePath.lineTo(viewRectF.left, viewRectF.bottom - clipSpace)
+
+        framePath.lineTo(viewRectF.left + clipSpace, viewRectF.bottom)
+
+        framePath.lineTo(viewRectF.right - clipSpace, viewRectF.bottom)
+
+        framePath.lineTo(viewRectF.right, viewRectF.bottom - clipSpace)
+
+        framePath.lineTo(viewRectF.right, viewRectF.top + clipSpace)
+
+        framePath.lineTo(viewRectF.right - clipSpace, viewRectF.top)
+
+        framePath.lineTo(viewRectF.left + clipSpace, viewRectF.top)
+
+        framePath.lineTo(viewRectF.left, viewRectF.top + clipSpace)
+
+        invalidate()
     }
 }
 
