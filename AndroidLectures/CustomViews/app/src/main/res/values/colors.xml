@@ -5,4 +5,5 @@
     <color name="color_frame">#BF360C</color>
     <color name="color_character_gradient_start">#C1A386</color>
     <color name="color_character_gradient_center">#513020</color>
+    <color name="textColor">#FF49454F</color>
 </resources>

@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
         binding.customView.setBitmap(
             BitmapFactory.decodeResource(
-                resources, R.drawable.ic_rick_and_morty_test
+                resources, R.drawable.download
             )
         )
     }
