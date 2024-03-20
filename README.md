@@ -1,55 +1,91 @@
 # Kotlin Tutorials
-Hello welcome this repostory can improve your kotlin experience have a nice lessons...
+Hello welcome this repostory can improve your kotlin and android experience have a nice lessons...
 
 ## Subjects
-- [Startup Kotlin](https://github.com/ErenMlg/KotlinLessons/tree/master/KotlinStart)
-If you new start to kotlin you can learn kotlin functions, variables, loops from here
+### Android Lectures
+- [Android Components](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/1-AndroidComponents)
+For the learn android components 
 
-- [Android Lifecycle with Kotlin](https://github.com/ErenMlg/KotlinLessons/tree/master/Android/AndroidLifecycle)
-Fragments, Data pass in pages, pass in pages, context, backstack, viewBinding and more...
+- [Project Directory](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/2-ProjectDirectory)
+For the learn project directory, gradle, manifest, res, etc.
 
-- [Material Design](https://github.com/ErenMlg/KotlinLessons/tree/master/Android/MaterialDesign)
-Toolbar, Floating Action Button, Card View and more...
+- [Layouts](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/3-Layouts)
+FrameLayout, Linear Layout, Relative Layout, Constraint Layout, ScrollView, Which one is best and they performance comparison
 
-- [Navigation Components](https://github.com/ErenMlg/KotlinLessons/tree/master/Android/NavigationComponent)
-You can learn use navigation components, bottom nav bar and arguments from here
+- [Context](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/4-Context)
 
-- [Android User Interaction](https://github.com/ErenMlg/KotlinLessons/tree/master/Android/AndroidUser)
-User Interactions, PopUp Menu, Toast Message and more...
+- [Lifecycle](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/5-Lifecycle)
+Lifecycle, for the activity, for the fragment, they comparison
 
-- [Android Widgets](https://github.com/ErenMlg/KotlinLessons/tree/master/Android/AndroidWidgets)
-Video Wiew, Date Time Picker, Spinner...
+- [View Binding](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/6-ViewBinding)
+To bind view and code, to code background of views
 
-- [Advanced Android](https://github.com/ErenMlg/KotlinLessons/tree/master/Android/NextAndroid)
-Notifications, charge kontrol, count down timer...
+- [Fragments](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/7-Fragments)
 
-- [Work Manager](https://github.com/ErenMlg/KotlinLessons/tree/master/Android/WorkManager)
-You can learn how to do something at simultaneous wtih work manager from here...
+- [Passing between pages and backstack](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/8-PassInActivities%26Backstack)
+Passing between activities or fragments and backstack works
 
-- [Location](https://github.com/ErenMlg/KotlinLessons/tree/master/Android/Location)
-You can learn how to use map and take location from here
+- [Custom Views](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/CustomViews)
+Customable views for the android
 
-- [Startup Databases](https://github.com/ErenMlg/KotlinLessons/tree/master/DataBases/LocalDatabases)
-You can learn local databases and how to use a database in app from here
+- [Projects](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/Projects/)
+Projects for the all lectures
 
-- [Advanced Databases](https://github.com/ErenMlg/KotlinLessons/tree/master/DataBases/ImprovedDatabases)
-You can learn Firebase, Picasso, Retrofit, Volley and JSON Parse from here
 
-- [Room](https://github.com/ErenMlg/KotlinLessons/tree/master/DataBases/Room)
-You can learn use room from here
+### Kotlin Lectures
+- [Basics & Castings](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/1-Basics%26Castings.kt)
+Basic operations, assing value, types, castings, etc.
 
-- [Dependecy Injection](https://github.com/ErenMlg/KotlinLessons/tree/master/DependecyInjection)
-You can learn dependecy injection(Hilt, Dagger) and free your classes from dependency
+- [Returns Jumps and Functions](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/2-Returns%26Jumps%26Funcs.kt)
+Functions, returns and jumps.
 
-- [Animations with Kotlin](https://github.com/ErenMlg/KotlinLessons/tree/master/Animations)
-You can learn animations and apply from here
+- [Higer Order, TailRec and Inline Functions](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/3-HigerOrder%26TailRec%26InlineFunc.kt)
+For the learn higher order, tailrec, inline functions
 
-- [MVVM Architecture](https://github.com/ErenMlg/KotlinLessons/tree/master/MVVM)
-You can learn MVVM Architecture and apply in a app from here
+- [Classes&Properties](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/4-Classes%26Properties.kt)
+You can learn class structure and class properties
 
-- [A few app with Kotlin](https://github.com/ErenMlg/KotlinLessons/tree/master/Apps)
-If you want improve what you learn you can try to do this apps
+- [Scope Functions](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/5-ScopeFuncs.kt)
+Scope functions, let, with, run, etc.
+
+- [Nested&Inner Classes](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/6-Nested%26InnerClasses.kt)
+Nested and inner class
+
+- [Inheritance](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/7-Inheritance.kt)
+inheritance from another class
+
+- [Interface](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/8-Interfaces.kt)
+interface for the multi arch
+
+- [Enums](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/9-EnumClasses.kt)
+Enum classes is Enumeration on the software. They are used for clean code.
+
+- [InlineValueClasses](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/10-InlineValueClasses.kt)
+Inline value classes
+
+- [Object Declarations](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/11-ObjectDeclarationsAndExpressions.kt)
+Object declarations
+
+- [Operator Overloading](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/12-OperatorOverloading.kt)
+Arithmatical operations etc.
+
+- [Generics](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/13-Generics.kt)
+Generics in Kotlin allow you to write code that is flexible and reusable
+
+- [Sealed Classes](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/14-SealedClass.kt)
+Sealed classes used for the specify situation types.
+
+- [Reflection](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/15-Reflection.kt)
+Reflection provide us examine codes structure on runtime.
+
+- [Delegation](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/16-Delegation.kt)
+Delegation is transfer a object work to another object.
+
+- [Delegated Properties](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/17-DelegatedProperties.kt)
+
 
 ## Referance
 [Android Mobil Uygulama Geliştirme Eğitimi | Kotlin | 2023](https://www.udemy.com/course/android-mobil-uygulama-gelistirme-egitimi-kotlin/)
+[My Android List](https://medium.com/@eren.mollaoglu/list/android-c14cac61fe6b)
+[My Kotlin List](https://medium.com/@eren.mollaoglu/list/kotlin-lectures-f01797417a32)
 And my improvements...
