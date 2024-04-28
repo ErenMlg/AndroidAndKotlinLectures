@@ -22,10 +22,11 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        binding.customView.setBitmap(
+        binding.customView.setCharacter(
             BitmapFactory.decodeResource(
-                resources, R.drawable.download
-            )
+                resources,
+                R.drawable.download
+            ), "Eren Mollaoğlu", "1.000.000"
         )
     }
 }
