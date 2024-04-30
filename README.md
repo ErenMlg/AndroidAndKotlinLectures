@@ -37,6 +37,9 @@ Projects for the all lectures
 
 - [Page Transitions With Data](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/PageTransitions)
   Data pass between pages, page transitions, backstack, back handler.
+
+- [Launch, Dispose, Side Effects](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/Launch_Dispose_Side_Effects)
+  Effects for the handle state, transitions, etc.
   
 ### Kotlin Lectures
 - [Basics & Castings](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/1-Basics%26Castings.kt)
