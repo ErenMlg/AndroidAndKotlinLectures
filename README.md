@@ -40,6 +40,9 @@ Projects for the all lectures
 
 - [Launch, Dispose, Side Effects](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/Launch_Dispose_Side_Effects)
   Effects for the handle state, transitions, etc.
+
+- [Multi Language Support](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/MultiLanguage)
+  Language change with buttons or etc.
   
 ### Kotlin Lectures
 - [Basics & Castings](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/1-Basics%26Castings.kt)
