@@ -43,7 +43,22 @@ Projects for the all lectures
 
 - [Multi Language Support](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/MultiLanguage)
   Language change with buttons or etc.
+
+- [Lazy Column-Row-Grid](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/LazyColumnRowGrid)
+  Lazy column, row and grid from compose.
+
+- [Card Views](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/Card)
+  Card View.
+
+- [Toast Message](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/MultiLanguage)
+  Language change with buttons or etc.
+
+- [Fab_Buttons_Switch](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/Fab_IconButton_Switch_CheckBox_RadioButton)
+  Fab Button, Icon Button, Checkbox, Switchs etc.
   
+- [Web View & Image](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/WebView%26Image)
+  Web view and images.
+        
 ### Kotlin Lectures
 - [Basics & Castings](https://github.com/ErenMlg/AndroidAndKotlinLectures/blob/master/KotlinLectures/app/src/main/java/com/softcross/kotlinlectures/1-Basics%26Castings.kt)
 Basic operations, assing value, types, castings, etc.
