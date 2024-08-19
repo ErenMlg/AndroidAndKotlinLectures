@@ -10,7 +10,7 @@ fun main() {
     type of a variable on runtime or we can set private to public or public to private.
      */
 
-    class MyReflectionClass
+    class MyReflectionClass()
     //Class reference, return type like as KClass, Kotlin class and Java class reference is not same.
     val reflectionKotlin = MyReflectionClass::class
     println(reflectionKotlin)

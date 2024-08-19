@@ -12,6 +12,7 @@ fun main() {
     var numbers = intArrayOf(5, 6, 8, 9, 0, 13, 5, 2, 6)
     numbers.map { it / 2 }.filter { it > 3 }.let(::println)
 
+
     /**
     WITH
     Object Reference: this     Return Value: Lambda Result       Is Extension function: No.

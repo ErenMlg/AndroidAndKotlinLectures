@@ -15,6 +15,10 @@ fun <T> entry(x: T) {
     println(x)
 }
 
+fun main(){
+    entry<String>(4324)
+}
+
 interface Keyboard<T> {
     fun enter(x: T)
 }

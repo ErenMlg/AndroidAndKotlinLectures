@@ -1,6 +1,8 @@
 package com.softcross.kotlinlectures
 
 fun main() {
+    val x = 101342536574685796
+
     /**
     - Kotlin automatically detect and accept variable type.
     But if we want can define variable type like this 'var variableName:Int && val variableName:Int'

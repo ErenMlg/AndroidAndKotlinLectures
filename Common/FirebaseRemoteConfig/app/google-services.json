@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "552326624653",
+    "project_id": "remoteconfigtest-110d3",
+    "storage_bucket": "remoteconfigtest-110d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552326624653:android:d9882be29dff811a43b9c4",
+        "android_client_info": {
+          "package_name": "com.softcross.firebaseremoteconfig"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHCcTQnIym2DL0cv9vCSiRHyxwo3eDkqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

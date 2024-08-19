@@ -1,5 +1,8 @@
 package com.softcross.kotlinlectures
 
+import com.sun.jdi.IntegerValue
+import jdk.javadoc.internal.doclets.formats.html.markup.Script
+
 fun main() {
 
     // Expressions can be marked with label.
@@ -56,6 +59,12 @@ fun main() {
      We have a class, we want add feature this class but want don't change anything on the class,
      we can use extension function for this job.
      */
+
+    fun Int.sayiyaDönüstür(): String{
+        return this.toString()
+    }
+
+    5.sayiyaDönüstür()
 
     fun Int.findClosestLowerValue(): Int = this - 1
     println("Closest lower value of 5 is : " + 5.findClosestLowerValue())
