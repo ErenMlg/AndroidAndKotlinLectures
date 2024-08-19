@@ -31,6 +31,13 @@ Customable views for the android
 - [Projects](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/Projects/)
 Projects for the all lectures
 
+### Common Lectures
+- [Build Variants](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Common/BuildVariants)
+
+- [Firebase Remote Config](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Common/FirebaseRemoteConfig)
+
+- [Proguard, R8](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Common/Proguard)
+
 ### Compose Lectures
 - [Basic Components](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/Compose/FirstProject)
   Include Row, Column, SelectionContainer, Textfield, Button, Text, Icon, Custom Composable function, Handle user actions.
