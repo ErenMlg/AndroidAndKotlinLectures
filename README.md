@@ -1,6 +1,12 @@
 # Kotlin Tutorials
 Hello welcome this repostory can improve your kotlin and android experience have a nice lessons...
 
+<p align="center">
+<a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-red.svg"></a>
+<a href="https://android-arsenal.com/api?level=23"><img src="https://img.shields.io/badge/API-23%2B-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/ErenMlg"><img src="https://img.shields.io/badge/github-ErenMlg-blue"></a>
+</p>
+
 ## Subjects
 ### Android Lectures
 - [Android Components](https://github.com/ErenMlg/AndroidAndKotlinLectures/tree/master/AndroidLectures/1-AndroidComponents)
